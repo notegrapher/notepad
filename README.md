@@ -1,2 +1,2 @@
 # notepad
-Algorithm Practice
+Algorithm and Programming Language Practice
