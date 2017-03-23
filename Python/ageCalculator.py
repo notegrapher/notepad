@@ -4,6 +4,7 @@ import datetime
 now = datetime.datetime.now()
 nowTuple = now.timetuple()
 # test
+print("Age Calculator")
 print("오늘의 년도는", nowTuple.tm_year, " 입니다.")
 
 birthYear = input("태어난 년도를 입력하세요 : ")
