@@ -1,8 +1,14 @@
 import random
-values = []
 
-for i in range(0, 100):
-    values[i] = random.randint(0, 1)
+values = [ ]
+size = input("Please input the number of people : ")
 
-for i in range(0, 100):
-    print(values[i])
+penaltyIndex = random.randint(0, size-1)
+
+for i in range(0, size):
+	values.insert(i, 0)
+	if (i == penaltyIndex):
+		values.insert(i, 1)
+	
+for i in range(0, size):
+	print("The result is values[{}] = {}".format(i, values[i]))	
