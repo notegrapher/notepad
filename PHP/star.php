@@ -8,8 +8,14 @@
 <body>
   <form action="star_print.php" method="get">
   Print star! <br>
-  Input the line number : <input class="form-control" type="number" placeholder="input the value">
-  <input type="submit" value="Run!"> 
+  <div class="row">
+	<div class="col-sm-9">	  
+Input the line number : <input class="form-control" name='line' id='line' type="number" placeholder="input the value">
+	</div>
+	<div class="col-sm-2">
+  <input class="btn btn-lg btn-primary" type="submit" value="Run!"> 
+	</div>
+  </div>
   </form>
 </body>
 </html>
