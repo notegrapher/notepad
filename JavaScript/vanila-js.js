@@ -1,11 +1,17 @@
 let x = 20;
 let y = 10;
 let sum = x + y;
-const myName = "HEO GEONYEONG";
 
 // alert("x + y = " + sum);
-alert("My name is " + myName);
-
-// Error
-// myName = 'a';
 // alert("My name is " + myName);
+
+let name = document.querySelector('.name');
+name.textContent = "My Name is Heo GeonYeong";
+name.style.color = "blue";
+
+let intro = document.querySelector('#intro');
+intro.textContent = "I just wanna learn🏃‍♂️ and learn📖";
+// Error when edit const
+// const name = "HEO GEONYEONG";
+// name = 'a';
+// alert("My name is " + name);
