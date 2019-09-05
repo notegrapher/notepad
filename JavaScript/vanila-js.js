@@ -11,6 +11,9 @@ name.style.color = "blue";
 
 let intro = document.querySelector('#intro');
 intro.textContent = "I just wanna learn🏃‍♂️ and learn📖";
+
+let country = document.querySelector('#country');
+country.textContent = "🇯🇵🇺🇸🇰🇿🇨🇦🇨🇳"
 // Error when edit const
 // const name = "HEO GEONYEONG";
 // name = 'a';
