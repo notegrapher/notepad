@@ -7,7 +7,6 @@ let sum = x + y;
 
 let name = document.querySelector('.name');
 name.textContent = "My Name is Heo GeonYeong";
-name.style.color = "blue";
 
 let intro = document.querySelector('#intro');
 intro.textContent = "I just wanna learn🏃‍♂️ and learn📖";
