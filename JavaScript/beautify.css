@@ -1,10 +1,17 @@
-h1 {
-    text-decoration: none;
+.name {
+    margin: auto;
+    border: 3px solid #73AD21;
+    border-radius: 20px;
+    color: lightslategray;
+    font-size: 65px;
+    text-align: center;
+    width: 550px;
+    height: 120px;
+    position: relative;
 }
 
-.name {
-    color: lightslategray;
-    text-align: center;
+h1 {
+    margin: auto;
 }
 
 #intro {
