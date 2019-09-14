@@ -18,3 +18,8 @@ h1 {
     position: relative;
     text-align: center;
 }
+
+.profileImage {
+    width: 100px;
+    height: 100px;
+}
