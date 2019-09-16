@@ -2,7 +2,6 @@
     margin: auto;
     border: 3px solid #73AD21;
     border-radius: 20px;
-    color: lightslategray;
     font-size: 65px;
     text-align: center;
     width: 550px;
@@ -15,11 +14,20 @@ h1 {
 }
 
 #intro {
+    color: lightslategray;
     position: relative;
     text-align: center;
 }
 
+#travel {
+    text-align: center;
+}
+
 .profileImage {
-    width: 100px;
-    height: 100px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    padding: 10px;
 }
