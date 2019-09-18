@@ -1,11 +1,15 @@
-.name {
+.about {
+    width: 800px;
+    height: 380px;
     margin: auto;
     border: 3px solid #73AD21;
     border-radius: 20px;
+}
+
+.name {
+    margin: auto;
     font-size: 65px;
     text-align: center;
-    width: 550px;
-    height: 240px;
     position: relative;
 }
 

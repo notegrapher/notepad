@@ -1,4 +1,6 @@
-const profile = document.querySelector(".profile");
+const about = document.querySelector(".about");
 
-profile.src = `images/profile.jpeg`;
-profile.prepend(image);
+const image = new Image();
+image.src = `images/profile.jpeg`;
+image.classList.add("profile");
+about.prepend(image);
