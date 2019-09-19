@@ -27,6 +27,15 @@ h1 {
     text-align: center;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .profile {
     text-align: center;
     width: 250px;
@@ -34,4 +43,5 @@ h1 {
     display: block;
     margin: auto;
     padding: 10px;
+    animation: fadeIn 0.5s;
 }
