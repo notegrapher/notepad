@@ -47,6 +47,6 @@ h1 {
     height: 250px;
     display: block;
     margin: auto;
-    padding: 10px;
+    padding: 20px;
     animation: fadeIn 0.5s;
 }
