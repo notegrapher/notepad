@@ -12,7 +12,7 @@ let intro = document.querySelector('#intro');
 intro.textContent = "I just wanna learn🏃‍♂️ and learn📖";
 
 let language = document.querySelector('#language');
-language.textContent = "JavaScript, Java, Python, C++";
+language.textContent = "JavaScript, Java, C++, Python, Ruby";
 
 let travel = document.querySelector('#travel');
 travel.textContent = "🇯🇵🇺🇸🇰🇿🇨🇦🇨🇳"
