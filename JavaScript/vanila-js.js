@@ -15,7 +15,7 @@ let language = document.querySelector('#language');
 language.textContent = "JavaScript, Java, C++, Python, Ruby";
 
 let travel = document.querySelector('#travel');
-travel.textContent = "🇯🇵🇺🇸🇰🇿🇨🇦🇨🇳"
+travel.textContent = "🇯🇵🇺🇸🇰🇿🇨🇦🇨🇳🇲🇾"
 
 
 // Error when edit const
