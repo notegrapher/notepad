@@ -9,7 +9,7 @@ let name = document.querySelector('.name');
 name.textContent = "Heo GeonYeong";
 
 let intro = document.querySelector('#intro');
-intro.textContent = "I just wanna learn🏃‍♂️ and learn📖";
+intro.textContent = "I just wanna run🏃‍♂️ and learn📖";
 
 let language = document.querySelector('#language');
 language.textContent = "HTML, CSS, JavaScript, Java, C++, Python, Ruby";
