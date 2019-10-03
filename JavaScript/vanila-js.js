@@ -6,7 +6,7 @@ let sum = x + y;
 // alert("My name is " + myName);
 
 let name = document.querySelector('.name');
-name.textContent = "Heo GeonYeong";
+name.textContent = "허건영 (Heo GeonYeong)";
 
 let intro = document.querySelector('#intro');
 intro.textContent = "I just wanna run🏃‍♂️ and learn📖";
